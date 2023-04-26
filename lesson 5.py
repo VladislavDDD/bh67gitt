@@ -33,8 +33,6 @@
 #     pass
 
 
-a = int(input())
-
-is_even = 'No' if a % 2 else 'Zero'
-if a % 2:
-    is_even = 'No'
+data = {
+    'key1': 10,
+    'key2',}
