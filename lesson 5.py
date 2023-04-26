@@ -31,8 +31,3 @@
 #
 # if not a > 5:
 #     pass
-
-
-data = {
-    'key1': 10,
-    'key2',}
