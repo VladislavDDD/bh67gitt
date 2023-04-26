@@ -32,9 +32,3 @@
 # if not a > 5:
 #     pass
 
-
-a = int(input())
-
-is_even = 'No' if a % 2 else 'Zero'
-if a % 2:
-    is_even = 'No'
