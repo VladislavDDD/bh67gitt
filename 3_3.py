@@ -13,7 +13,3 @@ print('Сколько тебе лет?')
 myAge = input()
 print('C какого ты города?')
 myCity = input()
-
-
-
-
