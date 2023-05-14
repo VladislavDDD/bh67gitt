@@ -14,3 +14,4 @@ for i in range(N):
    a.append(2**i)
 
 print(a)
+
