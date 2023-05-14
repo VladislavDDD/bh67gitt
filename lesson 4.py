@@ -136,12 +136,36 @@
 
 # numbers = [0 for i in range(100)]
 # print(numbers)
+#
+# number = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# number = [number [i]*5 for i in range(len(number))]
+# print(number)
+#
+# text = 'hello'
+# letters = list(text)
+# letters[1] = 'p'
+# print(letters)
+#
+# numbers = [1, 2, 3, 4]
+# numbers[1:3] = [1, 2, 3, 4]
+# print(numbers)
+#
+# numbers = [1, 2, 3, 4]
+# a, b, c, d = numbers
+# print(a)
+# print(b)
+# print(c)
+# print(d)
 
-number = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-number = [number [i]*5 for i in range(len(number))]
-print(number)
-
-
-
-
+# numbers = [1, 2, 3, 4]
+# a, b, *c = numbers
+# print(a)
+# print(b)
+# print(c)
+#
+# a = [1, 2, 3]
+# b = [4, 5, 6, 7, 8, 9]
+# c = 'hello'
+# d = [*a, *b, *c]
+# print(d)
 
