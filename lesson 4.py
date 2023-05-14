@@ -168,4 +168,62 @@
 # c = 'hello'
 # d = [*a, *b, *c]
 # print(d)
+#
+# a = (4, )
+# print(a)
+#
+# a = (1, 2, 3, 4, 9, [5, 6, 7])
+# a[5].append(8)
+# print(a)
+#
+#
+# user = {
+#     'name': 'Vasya',
+#     'age': 23,
+#     'languages': ['ru', 'en']
+# }
+# print(user['name'])
+# user['name'] = 'Petya'
+# user['city'] = 'Minsk'
+# print(len(user))
+#
+# user = {
+#     'name': 'Vasya',
+#     'age': 23,
+#     'languages': ['ru', 'en']
+# }
+# print(user['name'])
+# user['name'] = 'Petya'
+# user['city'] = 'Minsk'
+# print(user)
+#
+# user = {
+#     'name': 'Vasya',
+#     'age': 23,
+#     'languages': ['ru', 'en']
+# }
+# print(user['name'])
+# user['name'] = 'Petya'
+# user['city'] = 'Minsk'
+# print('name' in user)
+#
+# user = dict([('name', 'Vasya'), ('age', 23)])
+# print(user)
+#
+# data = dict(['ab', 'cd'])
+# print(data)
+#
+# data = {i: i**2 for i in range(10)}
+# print(data)
+#
+# data = dict.fromkeys(('name', 'age', 'city'))
+# print(data)
+#
+# data = dict.fromkeys(('name', 'age', 'city'), 'H/Y')
+# print(data)
 
+user = {
+    'name': 'Vasya',
+    'age': 23,
+    'languages': ['ru', 'en']
+}
