@@ -221,9 +221,112 @@
 #
 # data = dict.fromkeys(('name', 'age', 'city'), 'H/Y')
 # print(data)
+#
+# user = {
+#     'name': 'Vasya',
+#     'age': 23,
+#     'languages': ['ru', 'en']
+# }
+# print(user.get('city', 'Minsk'))
+#
+# user = {
+#     'name': 'Vasya',
+#     'age': 23,
+#     'city': 'Mogilex'
+# }
+# print(user.get('city', 'Minsk'))
+# print(user)
+# print(user.setdefault('city', 'Minsk'))
+# print(user)
+#
+#
+# del user['name']
+# print(user)
+#
+# print(user.pop('city', None))
+# print(user)
+#
+# print(user.popitem())
+# print(user)
+#
+# print(user.keys())
+#
+# print(list(user.keys()))
+#
+# print([*user.keys()])
+#
+#
+# user = {
+#     'name': 'Vasya',
+#     'age': 23,
+#     'city': 'Mogilex'
+# }
+# new_data = {
+#     'age': 35,
+#     'city': 'Minsk'
+# }
+# user.update(new_data)
+# print(user)
+#
+#
+# result = {**user, **new_data}
+# print(user)
+# print(result)
+# print(new_data)
+#
+# result = user | new_data
+#
+#
+# s1 = set('hello world')
+# print(s1)
+#
+# numbers = {4, 3, 6, 5, 7, 8, 3, 6}
+# print(numbers)
+#
+# s1 = {1, 2, 3, 4, 5, 6}
+# s2 = {2, 3, 5}
+# print(s1.isdisjoint(s2))
+# print(s2.issubset(s1))
+# print(s2 <= s1)
+#
+# print(s1.issuperset(s2))
+# print(s1 >= s2)
+# print(s1 == s2)
+#
+#
+# s1.add('hello')
+# print(s1)
+#
+#
+# s1 = {1, 2, 3, 4, 5, 6}
+# s2 = {2, 3, 5, 7, 8, 9}
+#
+# print(s2 - s1)
+# print(s2.intersection(s1))
+# print(s2 & s1)
+#
+# print(s1 ^ s2)
+#
+# s3 = s1.union(s2)
+# s4 = s1 | s2
+# print(s3)
+# print(s4)
 
-user = {
-    'name': 'Vasya',
-    'age': 23,
-    'languages': ['ru', 'en']
-}
+
+# import collections
+#
+# collections.counter
+#
+# from collections import *
+#
+# words = ['hello', 'python', 'world', 'hello', 'hello', 'python']
+# c = Counter(words)
+# print(c)
+
+from collections import *
+text1 = 'hello'
+text2 = 'world'
+c1 = Counter(text1)
+c2 = Counter(text2)
+
+
