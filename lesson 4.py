@@ -322,11 +322,18 @@
 # words = ['hello', 'python', 'world', 'hello', 'hello', 'python']
 # c = Counter(words)
 # print(c)
+#
+# from collections import *
+# text1 = 'hello'
+# text2 = 'world'
+# c1 = Counter(text1)
+# c2 = Counter(text2)
+# print([*c1.elements()])
 
-from collections import *
-text1 = 'hello'
-text2 = 'world'
-c1 = Counter(text1)
-c2 = Counter(text2)
+
+
+
+
+
 
 
