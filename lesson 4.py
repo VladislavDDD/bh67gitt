@@ -329,9 +329,11 @@
 # c1 = Counter(text1)
 # c2 = Counter(text2)
 # print([*c1.elements()])
-
-
-
+# print(c1.most_common(2))
+# print(c1)
+# print(c2)
+# c1.subtract(c2)
+# print(c1)
 
 
 
