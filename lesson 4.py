@@ -332,10 +332,19 @@
 # print(c1.most_common(2))
 # print(c1)
 # print(c2)
+# print(c1 - c2)
 # c1.subtract(c2)
 # print(c1)
+#
+#
+# q = deque([1, 2, 3, 4, 5])
+# q.rotate(2)
+# print(q)
+#
+#
+# data = defaultdict(list)
+# ptint(data['name'])
 
-
-
-
-
+data = defaultdict(list)
+data['languages'].append('ru')
+print(data)
