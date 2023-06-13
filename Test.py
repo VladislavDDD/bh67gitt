@@ -1,3 +1,2 @@
-print(str(1232))
-s = '123'
-int(s)
+from collections import deque
+list name = (deque)

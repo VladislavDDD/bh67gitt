@@ -344,7 +344,73 @@
 #
 # data = defaultdict(list)
 # ptint(data['name'])
+#
 
-data = defaultdict(list)
-data['languages'].append('ru')
-print(data)
+
+# # fields = ('name', 'age', 'city')
+# # User = namedtuple('User', fields)
+# # vasya = User('vasya', 23, 'minsk')
+# # petya = User('petya', 15, 'mogilev')
+# # print(vasya.city)
+# # print(petya)
+# # print(vasya._asdict())
+
+
+# # data = {
+# # 	1: 'A',
+# # 	1.0: 'B',
+# # 	True: 'C'
+# # }
+# # print(data)
+# # data = {
+# # 	1: {
+# # 		'name': 'vasya'
+# # 	}
+# # }
+# # print(data[1]['name'][1])
+#
+#
+# # data = {
+# # 	None: 3456,
+# # 	(1, 2, (3, 4, (5, 6))): 'tuple'
+# # }
+# # print(data[(1, 2, (3, 4, (5, 6)))])
+#
+#
+# # print('a'
+# # 	  'b')
+# # text = 'ab'
+# # text = f'{45678}' \
+# # 	   f'{45678}'
+# # print(text)
+# # text = f'{45678}{45678}'
+#
+# # a = b = 35
+#
+# # a = 35
+# # b = 35
+#
+# # a, b = 35, 35
+# # print(a)
+# # print(b)
+#
+#
+# # tup = 'hello',
+# # print(tup)
+# numbers = [1, 4, 6]
+# data = {
+# 	'name': 'vasya', 'age': 23
+# }
+# print(1, 2, 3, sep='----')
+#
+# print(5 > 0)
+#
+# data = {
+# 	'name': 'Vasya',
+# 	'age': 23,
+# 	'city': 'Minsk',
+# 	'languages': [
+# 		'ru',
+# 		'en'
+# 	]
+# }
